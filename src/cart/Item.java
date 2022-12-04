@@ -8,6 +8,11 @@ public class Item {
     private Float price = 0f;
     private int quantity = 0;
 
+    public Item(String code, String name) {
+        this.code = code;
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
@@ -37,10 +42,4 @@ public class Item {
         return this.price * this.quantity;
     }
     
-    public Item(String code, String name) {
-        this.code = code;
-        this.name = name;
-
-    }
-
 }

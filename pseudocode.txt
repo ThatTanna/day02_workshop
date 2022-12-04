@@ -1,0 +1,9 @@
+objective: add items to shopping cart, checkout with total price
+items will contain:
+    name and type of items
+    quantity
+    price
+Example add apple x10 @$0.50 each.
+
+Relations
+Item is the parent of apple, orange, etc.
