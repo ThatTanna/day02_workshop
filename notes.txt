@@ -1,0 +1,18 @@
+Superclass - Item
+child - Apple, orange,
+
+Item properties/members
+name, code, price, quantity.
+
+Apple will inherit Item's properties via extends.
+
+
+-----
+add, list, delete, exit
+-----
+
+names:
+    (user)input, (split)info, 
+
+add apple 10 @0.5
+    use split []
