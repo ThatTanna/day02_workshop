@@ -12,7 +12,7 @@ public class Main {
         // orange.setQuantity(10);
 
         Apple apple = new Apple();
-        apple.setType("washingston");
+        apple.setType("washington");
 
         Orange orange = new Orange();
 
@@ -30,5 +30,5 @@ public class Main {
         if (item instanceof Orange) {
             orange = (Orange)item;
         }
-}
+    }
 }
