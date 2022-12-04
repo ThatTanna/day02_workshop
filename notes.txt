@@ -3,9 +3,15 @@ child - Apple, orange,
 
 Item properties/members
 name, code, price, quantity.
+(use getters/setters)
+Example add apple 10 0.50
+item.getName = info[1]
+item.getCode = info[2]
+item.getQuantity = info[3]
+item.getPrice = info[4]
+item.totalPrice (quantity * price)
 
 Apple will inherit Item's properties via extends.
-
 
 -----
 add, list, delete, exit

@@ -1,9 +1,22 @@
 objective: add items to shopping cart, checkout with total price
 items will contain:
     name and type of items
+    code
     quantity
     price
 Example add apple x10 @$0.50 each.
+
+When getting input, use split to get the values(var name: info) of
+(item, quantity, price) respectively.
+String[] info = item.split(" ") each array sorted by " " (space)
+Example
+    info[0] -> add
+    info[1] -> apple | note: item must be unique and cannot add duplicate
+    info[2] -> 10 (quantity)
+    info[3] -> 0.5 (price)
+
+Exit/Checkout: Calculate total price of everything
+    for (int i = 0; i < list.length; i++)
 
 Relations
 Item is the parent of apple, orange, etc.

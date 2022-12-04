@@ -5,13 +5,10 @@ public class Item {
     // members
     private String name = "";
     private String code = "";
+    private Integer quantity = 0;
     private Float price = 0f;
-    private int quantity = 0;
 
-    public Item(String code, String name) {
-        this.code = code;
-        this.name = name;
-    }
+    public Item() { }
 
     public String getName() {
         return name;
@@ -25,20 +22,22 @@ public class Item {
     public void setCode(String code) {
         this.code = code;
     }
-    public float getPrice() {
-        return price;
-    }
-    public void setPrice(float price) {
-        this.price = price;
-    }
-    public int getQuantity() {
+    
+    public Integer getQuantity() {
         return quantity;
     }
-    public void setQuantity(int quantity) {
+    public void setQuantity(Integer quantity) {
         this.quantity = quantity;
     }
 
-    public float totalPrice() {
+    public Float getPrice() {
+        return price;
+    }
+    public void setPrice(Float price) {
+        this.price = price;
+    }
+
+    public Float totalPrice() {
         return this.price * this.quantity;
     }
     

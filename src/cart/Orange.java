@@ -5,7 +5,7 @@ public class Orange extends Item {
     private String type;
 
     public Orange() {
-        super("orange", "Orange");
+        super();
     }
 
     public String getType() {
