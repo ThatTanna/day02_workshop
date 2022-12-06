@@ -19,7 +19,7 @@ public class Main {
         Console cons = System.console();
         Boolean stop = false;
 
-        Item item = new Item();
+        Item item = new Item("", 0, 0f);
 
         Apple apple = new Apple();
         apple.setType("washington");

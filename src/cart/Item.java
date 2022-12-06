@@ -8,7 +8,11 @@ public class Item {
     private Integer quantity = 0;
     private Float price = 0f;
 
-    public Item() { }
+    public Item(String name, Integer quantity, Float price) {
+        this.name = name;
+        this.quantity = quantity;
+        this.price = price;
+    }
 
     public String getName() {
         return name;

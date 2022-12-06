@@ -5,7 +5,7 @@ public class Apple extends Item {
     private String type;
 
     public Apple() {
-        super();
+        super("c-apple", 10, 0.5f);
     }
 
     public String getType() {
